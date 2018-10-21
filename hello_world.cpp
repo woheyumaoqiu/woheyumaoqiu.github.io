@@ -9,7 +9,8 @@ int main()
 	b = 2;
 	cout<<"a+b = "<<a+b<<endl;
 	cout<<"Hello world!"<<endl;
-
+	cout<<"- fix-B"<<endl;
+	
    return 0;
 
 }
