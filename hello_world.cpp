@@ -10,7 +10,8 @@ int main()
 	cout<<"a+b = "<<a+b<<endl;
 	cout<<"Hello world!"<<endl;
 	cout<<"Nice  to meet you!"<<endl;
-
+	cout<<"- fix-B"<<endl;
+	
    return 0;
 
 }
