@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -12,6 +13,8 @@ int main()
 	cout<<"Nice  to meet you!"<<endl;
 	cout<<"- fix-B"<<endl;
 	
-   return 0;
+    return 0;
 
 }
+
+
