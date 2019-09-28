@@ -12,6 +12,7 @@ int main()
 	cout<<"Hello world!"<<endl;
 	cout<<"Nice  to meet you!"<<endl;
 	cout<<"- fix-B"<<endl;
+	cout<<"xiaoxiao"<<endl;
 	
     return 0;
 
