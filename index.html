@@ -1,11 +1,86 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>欢迎访问罗裕春的网站</title>
-</head>
-<body>
-    <h1>我的个人网站</h1>
-    <p>Hello world!</p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Hi，桐熙</title>
+		<meta name="author" content="Mike">
+		
+		<link rel="stylesheet" href="./jscss/style.css" type="text/css" media="all">
+		<script type="text/javascript" src="./jscss/jquery.js"></script>
+		<script type="text/javascript" src="./jscss/roundabout.js"></script>
+		<script type="text/javascript" src="./jscss/roundabout_shapes.js"></script>
+		<script type="text/javascript" src="./jscss/gallery_init.js"></script>
+		<script type="text/javascript" src="./jscss/snowstorm.js"></script>
+		<script type="text/javascript" src="./jscss/text.js"></script>
+		<script type="text/javascript" src="./jscss/ga.js" async=""></script>
+		<script type="text/javascript" src="./jscss/heart.js"></script>
+		<script type="text/javascript" src="./jscss/move.js"></script>
+		<script type="text/javascript" src="./jscss/time.js"></script>
+		<script type="text/javascript" src="./jscss/makesnake.js"></script></head><body>
+			
+		<script type="text/javascript">
+			setTimeout(makesnake, 42000);
+		</script>
+		<!--#Header-->
+		<div id="header" style="opacity:0.85">
+			<div id="title">
+				郑桐熙，愿你一直可爱如初
+			</div>
+		</div>
+	
+		<audio id="bgmMusic" src="./jscss/遥远的你.mp3" preload="auto" type="audio/mp3" autoplay="" loop=""></audio>
+		
+		<!-- #myContent -->
+		<div id="myContent">
+				<span id="blink" style="display: none;">_</span></div>
+		<div id="contentToWrite" style="display:none">
+				七月的风 八月的雨 <br>
+				卑微的我喜欢遥远的你 <br>
+				你还未来 怎敢老去 <br>
+				未来的我和你奉陪到底 <br>
+				你若同意 我一定去 <br>
+				可你并不在意我的出席 <br>
+				你的过去 无法参与 <br>
+				但我还是喜欢你 <br>
+				遥远的你现在哪里 <br>
+				生活是否如意 <br>
+				花期此生只一季	<br>
+				怎能错过相遇 <br>
+				遥远的你我好想你 <br>
+				像中了熬夜的瘾	<br>
+				你笑起来是好天气 <br>
+				把阳光洒满了 我的呼吸 <br> 	
+		</div>
+		<script type="text/javascript">
+			writeContent(true);
+		</script>
+		
+
+		<!-- #container -->
+		<div id="container">
+			<ul id="myRoundabout" class="roundabout-holder" style="padding: 0px; position: relative; z-index: 100;">
+		  	<li class="roundabout-moveable-item roundabout-in-focus" current-scale="1.0000" style="position: absolute; left: 122px; top: 87px; width: 350px; height: 222px; opacity: 1; z-index: 400; font-size: 16px;"><img src="./jscss/1.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: -0.4px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="./jscss/2.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: 473.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="./jscss/3.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: -39.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="./jscss/4.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: 317px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="./jscss/5.jpg" alt=""></li>
+		  </ul>
+		</div>
+		<script type="text/javascript">
+			setTimeout(move, 15000);
+		</script>
+  		
+  		<!-- #bg -->
+		<div id="bg">
+			<canvas id="garden" width="1583" height="709"><c style="color: #FFF; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:50px">你的浏览器过时了,试试火狐吧!</c></canvas>
+		</div>
+
+		<!-- #time -->
+		<div id="time">
+			<span id="show"></span>
+			<script type="text/javascript">
+				setTimeout("showTime()", 40000);
+			</script>
+		</div>
+
+
+	
+
 </body>
-</html>
