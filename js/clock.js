@@ -19,6 +19,7 @@ function drawBackground(){
 		var rad=2*Math.PI/12*i;
 		var x=Math.cos(rad)*(r-30);
 		var y=Math.sin(rad)*(r-30);
+		ctx.fillStyle='#FF0000';
 		ctx.fillText(number,x,y);
 		
 	});

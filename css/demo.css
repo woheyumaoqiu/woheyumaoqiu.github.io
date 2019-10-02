@@ -1,0 +1,57 @@
+/* body {
+    margin: 0px;
+    padding: 0px;
+} */
+body {
+    background-image: url(../images/star.jpg);
+}
+
+.main-container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.welcome-heading {
+    height:400px;
+    width:700px;
+    margin-left:100px;
+}
+
+.welcome-heading>p {
+    margin-left:30%;
+    line-height:200%;
+    font-size:3;
+    color: red;
+}
+
+.welcome-heading>h1{
+    text-align:center;
+    color:white;
+}
+
+img {
+    background-color: black;
+    border: 6px solid white;
+    box-shadow: 1px 1px 5px #333333;
+}
+
+.photo-1 {
+    position: absolute;
+    left: 950px; top: 100px;
+    width: 250px; height: 300px;
+    transform: rotate(30deg);
+}
+
+.photo-2 {
+    position: absolute;
+    left: 200px; top: 400px;
+    width: 150px; height: 180px;
+    transform: rotate(-20deg);
+}
+
+.clock {
+    position: absolute;
+    left: 10px;top: -220px;
+    margin-top: 250px;
+    text-align: center;
+}
