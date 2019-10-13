@@ -60,7 +60,15 @@ img {
     left: 800px; top: 450px;
     width: 180px; height: 230px;
     width: 180px; height: 230px;
-    transform: rotate(-30deg);
+    transform: rotate(-8deg);
+}
+
+.photo-4 {
+	position: absolute;
+    left: 600px; top: 300px;
+    width: 180px; height: 230px;
+    width: 180px; height: 230px;
+    transform: rotate(-22deg);
 }
 
 .clock {
