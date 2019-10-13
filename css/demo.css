@@ -20,7 +20,7 @@ body {
 .welcome-heading>p {
     line-height:200%;
     font-size:3;
-    color: red;
+    color: yellow;
 	margin-left: 20%;
 }
 
@@ -57,7 +57,7 @@ img {
 
 .photo-3 {
 	position: absolute;
-    left: 800px; top: 450px;
+    left: 900px; top: 150px;
     width: 180px; height: 230px;
     width: 180px; height: 230px;
     transform: rotate(-8deg);
@@ -65,7 +65,7 @@ img {
 
 .photo-4 {
 	position: absolute;
-    left: 600px; top: 300px;
+    left: 620px; top: 300px;
     width: 180px; height: 230px;
     width: 180px; height: 230px;
     transform: rotate(-22deg);
