@@ -68,7 +68,7 @@ img {
     left: 620px; top: 300px;
     width: 180px; height: 230px;
     width: 180px; height: 230px;
-    transform: rotate(-22deg);
+    transform: rotate(22deg);
 }
 
 .clock {
